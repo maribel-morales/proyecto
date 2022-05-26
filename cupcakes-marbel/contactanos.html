@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactános</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Cupcakes marbel</a>
+            <ul id="menu">
+                <li>
+                    <a href="recetas.html">Recetas</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="pedidos.html">Pedidos</a>
+                </li>
+                <li>
+                    <a href="contactanos.html">Contáctanos</a>
+                </li>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <div>
+                    <h1>Formulario de contacto</h1>
+                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                    <form action="#" method="post">
+                        <p>
+                            <label for="nombre">Nombre<span class="obligatorio">*</span></label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                        <p>
+                            <label for="email">Email<span class="obligatorio">*</span></label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                        <p>
+                            <label for="telefone">Celular</label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu celular">
+                        </p>
+                        <p>
+                            <label for="mensaje">Mensaje<span class="obligatorio">*</span></label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+                        </p>
+                        <p>
+                            <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+                        </p>
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2022 Cupcakes Marbel</p>
+        <p>Aviso de privacidad | Terminos y Condiciones</p>
+    </footer>
+
+</body>
+
+</html>
