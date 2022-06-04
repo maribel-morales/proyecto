@@ -10,14 +10,18 @@
     <title>Cupcakes marbel</title>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo">Cupcakes marbel</a>
+            <a href="index.html">
+                <h1 class="name_sitio">
+                    Cupcakes marbel
+                </h1>
+            </a>
             <ul id="menu">
                 <li>
                     <a href="pages/recetas.html">Recetas</a>
@@ -38,18 +42,22 @@
     </header>
     <main>
         <section class="bienvenida">
-            <h1 >¿Como hacer cupcakes sencillos en casa?</h1>
-            <form method="GET" action="">
-                <input type="text" name="s" placeholder="Buscar recetas de cupcakes!!">
-                <button>
-                    <img src="assets/images/icons/search.svg" alt="btn-search" width="30px" height="30px">
-                </button>
-            </form>
-            <img src="assets/images/persona.jpg">
-            <div>
-                <img src="assets/images/icons/logo-facebook.svg" alt="facebook-marbel" width="40px">
-                <img src="assets/images/icons/logo-pinterest.svg" alt="facebook-marbel" width="40px">
+            <div class="bienvenida__contenido">
+                <h1 class="bienvenida__titulo">¿Como hacer cupcakes sencillos en casa?</h1>
+                <form method="GET" action="" class="bienvenida__contenido--form">
+                    <input type="text" name="s" placeholder="Buscar recetas de cupcakes!!">
+                    <button class="btn__search">
+                        <img src="assets/images/icons/search.svg" alt="btn-search" width="30px">
+                    </button>
+                </form>
+                <div class="bienvenida__redes">
+                    <img class="icon" src="assets/images/icons/logo-facebook.svg" alt="facebook-marbel">Facebook
+                    <img class="icon" src="assets/images/icons/logo-pinterest.svg" alt="facebook-marbel">Pinteres
+                </div>
             </div>
+            <figure class="bienvenida__imagen">
+                <img src="assets/images/persona.jpg" alt="Imagen Principal">
+            </figure>
         </section>
         <section>
             <h2>Recetas</h2>
@@ -85,7 +93,7 @@
         </section>
     </main>
     <footer>
-        <p>©2022 Cupcakes Marbel</p>
+        <p>&copy;2022 Cupcakes Marbel</p>
         <p>Aviso de privacidad | Terminos y Condiciones</p>
     </footer>
 
