@@ -115,16 +115,11 @@ nav {
     height: 40px;
 }
 
-
-/* 
-
-.bienvenida__img {
-    position: relative;
-    float: right;
-    width: 400px;
+footer {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    width: 80%;
+    bottom: 0;
+    padding: 10px;
 }
-
-.btn__search {
-    width: 30px;
-    height: 30px;
-} */
