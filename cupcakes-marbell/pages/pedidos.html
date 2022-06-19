@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <h1 class="name_sitio">
+                    Cupcakes marbel
+                </h1>
+            </a>
+            <ul id="menu">
+                <li>
+                    <a href="recetas.html">Recetas</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="pedidos.html">Pedidos</a>
+                </li>
+                <li>
+                    <a href="contactanos.html">Contáctanos</a>
+                </li>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Cupcakes sobre pedido</h2>
+                <p>Este generador usa un diccionario de palabras en latín para construir pasajes de texto Lorem Ipsum que cumpla con su longitud deseada. La duración y la puntuación dispesar de la oración y el párrafo se calculan usando una distribución
+                    Gaussiana, basada en análisis de textos mundiales reales. Esto asegura que el texto Lorem Ipsum generado es único, libre de repeticiones y también se parece a un texto legible todo lo posible.</p>
+            </div>
+            <div>
+                <form action="#" method="post">
+                    <label for="tipo_evento">Tipo de evento<span class="obligatorio">*</span></label>
+                    <select>
+                        <option value="Boda">Boda</option>
+                        <option value="Quince Años">Quince Años</option>
+                        <option value="Bautizo">Bautizo</option>
+                        <option value="Infantiles">Infantiles</option>
+                        <option value="Comunión">Comunión</option>
+                        <option value="Graduaciones">Graduaciones</option>
+                        <option value="Novedades">Novedades</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                    <label for="num_personas">Número de Personas<span class="obligatorio">*</span></label>
+                    <input type="text" name="num_personas" id="num_personas" required="obligatorio" placeholder="Número de personas">
+                    <label for="num_personas">Comentario<span class="obligatorio">*</span></label>
+                    <textarea>Comentario</textarea>
+                    <button type="submit" name="generar_pedido" id="enviar">Generar Pedido</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2022 Cupcakes Marbel</p>
+        <p>Aviso de privacidad | Terminos y Condiciones</p>
+    </footer>
+
+</body>
+
+</html>

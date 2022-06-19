@@ -6,6 +6,7 @@ font-family: 'Oleo Script Swash Caps', cursive;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;700&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
 * {
+    /*No se desborde*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -114,23 +115,16 @@ nav {
     height: 40px;
 }
 
-.recetas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+/* 
+
+.bienvenida__img {
+    position: relative;
+    float: right;
+    width: 400px;
 }
 
-.semana {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-footer {
-    background-color: white;
-    text-align: center;
-    position: fixed;
-    width: 80%;
-    bottom: 0;
-    padding: 10px;
-}
+.btn__search {
+    width: 30px;
+    height: 30px;
+} */
